@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500,600,700|Poppins:300,400,500&display=swap");
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url(./fonts/HelveticaNowDisplay-Light.ttf);
+  font-weight: 300;
+  font-style: light;
+}
+
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url(./fonts/HelveticaNowDisplay-ExtraBold.ttf);
+  font-weight: 700;
+  font-style: bold;
+}
+
+.heading {
+  font-family: 'Cormorant Garamond', serif;
+}
+/*# sourceMappingURL=typography.css.map */
