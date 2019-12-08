@@ -188,7 +188,10 @@
     <script src="plugins/jquery.scrollify.js"></script>
     <script>
         $(document).ready(function () {
-            $.scrollify({
+            
+            var viewport = $(window).width();
+            if(viewport >= 1200){
+               $.scrollify({
                 section: ".section",
                 sectionName: "section-name",
                 interstitialSection: "",
@@ -206,10 +209,7 @@
                 afterResize: function () {},
                 afterRender: function () {}
             });
-            // var viewport = $(window).width();
-            // if(viewport >= 1200){
-               
-            // }
+            }
             
         });
     </script>
