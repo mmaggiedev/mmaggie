@@ -1445,6 +1445,10 @@ input {
   }
 }
 
+.familiar-section .title {
+  white-space: nowrap;
+}
+
 .familiar-section .full-section-content:after {
   content: '';
   position: absolute;
