@@ -1246,7 +1246,6 @@ input {
   left: 50%;
   -webkit-transform: translate(-50%, 0px);
           transform: translate(-50%, 0px);
-  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
