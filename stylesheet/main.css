@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500,600,700|Poppins:300,400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300|Source+Sans+Pro:300&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -15,10 +16,11 @@ html {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   color: rgba(0, 0, 0, 0.84);
-  font-family: "HelveticaNowDisplay-Light", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   letter-spacing: .01rem;
   overflow-x: hidden;
+  font-weight: 300;
 }
 
 * {
@@ -367,20 +369,6 @@ ul {
 input {
   font-family: inherit;
   outline: none;
-}
-
-@font-face {
-  font-family: "HelveticaNowDisplay";
-  src: url(./fonts/HelveticaNowDisplay-Light.ttf);
-  font-weight: 300;
-  font-style: light;
-}
-
-@font-face {
-  font-family: "HelveticaNowDisplay";
-  src: url(./fonts/HelveticaNowDisplay-ExtraBold.ttf);
-  font-weight: 700;
-  font-style: bold;
 }
 
 .heading {
