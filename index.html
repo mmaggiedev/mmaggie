@@ -188,18 +188,16 @@
     <script src="plugins/jquery.scrollify.js"></script>
     <script>
         $(document).ready(function () {
-            var viewport = $(window).width();
-            if(viewport >= 1200){
-                $.scrollify({
+            $.scrollify({
                 section: ".section",
                 sectionName: "section-name",
                 interstitialSection: "",
                 easing: "easeOutExpo",
-                scrollSpeed: 800,
+                scrollSpeed: 1000,
                 offset: 0,
                 scrollbars: true,
                 standardScrollElements: "",
-                setHeights: true,
+                setHeights: false,
                 overflowScroll: true,
                 updateHash: true,
                 touchScroll: true,
@@ -208,7 +206,10 @@
                 afterResize: function () {},
                 afterRender: function () {}
             });
-            }
+            // var viewport = $(window).width();
+            // if(viewport >= 1200){
+               
+            // }
             
         });
     </script>
